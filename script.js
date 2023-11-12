@@ -32,16 +32,20 @@ function displayProductInfo(xml, productCode) {
             var quantity = products[i].getElementsByTagName("quantity")[0].childNodes[0].nodeValue;
             var price = products[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
             
-            products.forEach(product => {
-                htmlContent += `<div class="product">
-                                    <h2>${product.name}</h2>
-                                    <p>${product.description}</p>
-                                    
-                                </div>`;
-            });
+            // Use the extracted data to create HTML content
+            htmlContent = `<div class="product">
+                               <h2>${name}</h2>
+                               <p>Quantity: ${quantity}</p>
+                               <p>Price: ${price}</p>
+                           </div>`;
             
-            productInfoSection.innerHTML = htmlContent;
+            // Break the loop after finding the matching product
+            break;
+        }
     }
+
+    productInfoSection.innerHTML = htmlContent;
+}
 }
 }
 
