@@ -16,7 +16,7 @@ function loadProductDetails(productCode) {
             displayProductInfo(xmlDoc, productCode);
         }
     };
-    xhr.open("GET", "WADCA1.xml", true);
+    xhr.open("GET", "https://raw.githubusercontent.com/shea0811/WAD1.0/main/WADCA1.xml", true);
     xhr.send();
 }
 
