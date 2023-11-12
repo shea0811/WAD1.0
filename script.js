@@ -47,4 +47,4 @@ function displayProductInfo(xml, productCode) {
     productInfoSection.innerHTML = htmlContent;
 }
 }
-
+}
