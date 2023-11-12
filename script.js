@@ -5,19 +5,12 @@ window.onload = function() {
 };
 
 function loadProductDetails(productCode) {
-    var parser = new DOMParser();
-    var xmlDoc;
-
-    // Load and parse the XML file
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-            xmlDoc = parser.parseFromString(this.responseText, "text/xml");
-            displayProductInfo(xmlDoc, productCode);
-        }
-    };
-    xhr.open("GET", "https://raw.githubusercontent.com/shea0811/WAD1.0/main/WADCA1.xml", true);
-    xhr.send();
+    fetch('products.json') // Adjust the path to where you host your JSON file
+        .then(response => response.json())
+        .then(data => {
+            displayProductInfo(data, productCode);
+        })
+        .catch(error => console.error('Error:', error));
 }
 
 function displayProductInfo(xml, productCode) {
