@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styling.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a class="item">Home</a>
+        <a class="item">Manuel Search</a>
+        <div class="item">
+          Products
+          <div class="dropdown">
+            <div>
+              <a>#1</a>
+              <a>#2</a>
+              <a>#3</a>
+            </div>
+          </div>
+        </div>
+        <a class="item">Add Product</a>
+        <div class="underline"></div>
+      </nav>
+    <div class="login-box">
+        <h2>Insert Product Code</h2>
+        <form action="productDetails.html" method="get">
+          <div class="user-box">
+            <input type="text" id="searchInput">
+            <label>Code</label>
+          </div>
+            <button type="submit" onclick="redirectToProductPage()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Search
+          </button>
+        </form>
+      </div>
+     <script>
+        function redirectToProductPage() {
+            var productCode = document.getElementById('searchInput').value;
+            window.location.href = 'productDetails.html?code=' + productCode;
+        }
+    </script>
+</body>
+</html>

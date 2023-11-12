@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<category>
+	<product code="101-01">
+		<name>ProBook</name>
+		<description>High-performance laptop with a sleek design</description>
+		<quantity>50</quantity>
+		<unit_price>999.99</unit_price>
+	</product>
+	<product code="202-02">
+		<name>SuperPhone X</name>
+		<description>Cutting-edge phone with advanced features</description>
+		<quantity>20</quantity>
+		<unit_price>769.99</unit_price>
+	</product>
+	<product code="303-03">
+		<name>TabletEx 10 </name>
+		<description>10inch tablet with a responsive touch screen</description>
+		<quantity>30</quantity>
+		<unit_price>349.99</unit_price>
+	</product>
+	<product code="404-04">
+		<name>SnapShot</name>
+		<description>20MP digital camera for capturing high-quality photos</description>
+		<quantity>15</quantity>
+		<unit_price>245.50</unit_price>
+	</product>
+	<product code="505-05">
+		<name>SmartView 55</name>
+		<description>55inch smart TV with 4K resolution</description>
+		<quantity>25</quantity>
+		<unit_price>799.99</unit_price>
+	</product>
+	<product code="606-06">
+		<name>FrosteeX</name>
+		<description>Energy efficient refridgerator with spacious storage</description>
+		<quantity>10</quantity>
+		<unit_price>899.99</unit_price>
+	</product>
+	<product code="707-07">
+		<name>Spinster3000</name>
+		<description>Washing machine with multiple wash cycles</description>
+		<quantity>5</quantity>
+		<unit_price>499.99</unit_price>
+	</product>
+	<product code="808-08">
+		<name>CBrew</name>
+		<description>Programmable coffee brewer</description>
+		<quantity>30</quantity>
+		<unit_price>69.99</unit_price>
+	</product>
+	<product code="909-09">
+		<name>FrequencyFeel</name>
+		<description>Portable bluetooth speaker with powerful bass</description>
+		<quantity>60</quantity>
+		<unit_price>119.99</unit_price>
+	</product>
+	<product code="100-10">
+		<name>VelocityScoot</name>
+		<description>High speed electric scooter</description>
+		<quantity>12</quantity>
+		<unit_price>649.99</unit_price>
+	</product>
+
+
+</category>
