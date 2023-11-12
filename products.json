@@ -1,0 +1,66 @@
+{
+  "category": {
+    "product": [
+      {
+        "name": "ProBook",
+        "description": "High-performance laptop with a sleek design",
+        "quantity": 50,
+        "unit_price": 999.99
+      },
+      {
+        "name": "SuperPhone X",
+        "description": "Cutting-edge phone with advanced features",
+        "quantity": 20,
+        "unit_price": 769.99
+      },
+      {
+        "name": "TabletEx 10",
+        "description": "10inch tablet with a responsive touch screen",
+        "quantity": 30,
+        "unit_price": 349.99
+      },
+      {
+        "name": "SnapShot",
+        "description": "20MP digital camera for capturing high-quality photos",
+        "quantity": 15,
+        "unit_price": 245.5
+      },
+      {
+        "name": "SmartView 55",
+        "description": "55inch smart TV with 4K resolution",
+        "quantity": 25,
+        "unit_price": 799.99
+      },
+      {
+        "name": "FrosteeX",
+        "description": "Energy efficient refridgerator with spacious storage",
+        "quantity": 10,
+        "unit_price": 899.99
+      },
+      {
+        "name": "Spinster3000",
+        "description": "Washing machine with multiple wash cycles",
+        "quantity": 5,
+        "unit_price": 499.99
+      },
+      {
+        "name": "CBrew",
+        "description": "Programmable coffee brewer",
+        "quantity": 30,
+        "unit_price": 69.99
+      },
+      {
+        "name": "FrequencyFeel",
+        "description": "Portable bluetooth speaker with powerful bass",
+        "quantity": 60,
+        "unit_price": 119.99
+      },
+      {
+        "name": "VelocityScoot",
+        "description": "High speed electric scooter",
+        "quantity": 12,
+        "unit_price": 649.99
+      }
+    ]
+  }
+}
